@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Yoga",
+        "datetime": "2025-08-28T07:00:00+05:30",
+        "instructor": "Priya Sharma",
+        "available_slots": 1
+    },
+    {
+        "name": "Zumba",
+        "datetime": "2025-08-28T18:00:00+05:30",
+        "instructor": "Rahul Verma",
+        "available_slots": 10
+    },
+    {
+        "name": "HIIT",
+        "datetime": "2025-08-29T06:30:00+05:30",
+        "instructor": "Neha Singh",
+        "available_slots": 14
+    }
+]
