@@ -1,0 +1,38 @@
+[
+    {
+        "booking_id": 1,
+        "class_name": "HIIT",
+        "client_name": "krish",
+        "client_email": "newmanstark01@gmail.com"
+    },
+    {
+        "booking_id": 2,
+        "class_name": "Yoga",
+        "client_name": "test User",
+        "client_email": "test@example.com"
+    },
+    {
+        "booking_id": 3,
+        "class_name": "Yoga",
+        "client_name": "Booking Tester",
+        "client_email": "tester@example.com"
+    },
+    {
+        "booking_id": 4,
+        "class_name": "Yoga",
+        "client_name": "test User",
+        "client_email": "test@example.com"
+    },
+    {
+        "booking_id": 5,
+        "class_name": "Yoga",
+        "client_name": "Booking Tester",
+        "client_email": "tester@example.com"
+    },
+    {
+        "booking_id": 6,
+        "class_name": "Yoga",
+        "client_name": "test User",
+        "client_email": "test@example.com"
+    }
+]
