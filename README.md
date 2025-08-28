@@ -49,6 +49,11 @@ A FastAPI-based REST API for managing fitness class bookings. This API allows us
    ```bash
    uvicorn main:app --reload
    ```
+   
+   **Optional: Enable logging for debugging**
+   ```bash
+   uvicorn main:app --reload --log-level debug
+   ```
 
 6. **Access the API**
    - API Homepage: http://localhost:8000
@@ -230,7 +235,7 @@ Sample bookings are included to demonstrate the API functionality.
 - **FastAPI**: Modern, fast web framework for building APIs
 - **Pydantic**: Data validation using Python type annotations
 - **Pytest**: Testing framework
-- **Uvicorn**: ASGI server for running FastAPI applications
+- **Uvicorn**: ASGI server for running FastAPI applications (with built-in logging support)
 - **Pytz**: Timezone handling
 
 ## 🔧 API Features
@@ -252,7 +257,7 @@ Sample bookings are included to demonstrate the API functionality.
 ## 🎯 Demo Scenarios
 
 ### Scenario 1: View Available Classes
-1. Start the server: `uvicorn main:app --reload`
+1. Start the server: `uvicorn main:app --reload` (or `uvicorn main:app --reload --log-level debug` for detailed logs)
 2. Visit: http://localhost:8000/docs
 3. Try the `/classes` endpoint
 4. Test different timezone parameters
